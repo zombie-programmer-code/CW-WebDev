@@ -1,0 +1,150 @@
+body {
+    background-color: white;
+}
+
+.headbar{
+
+    padding: 30px;
+    text-align: center;
+    background: #656ced;
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.tbox {
+    display: flex;
+    justify-content: center;
+    border-radius: 1px 1px 50px 50px;
+    background: #656cec;
+    margin-top: 3px;
+    padding: 10px;
+    gap: 80px;
+  }
+
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    background: #656cec;
+    margin-top: 0px;
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    font-family: sans-serif;
+
+}
+
+.circle {
+    border-radius: 50%;
+    background: #babeff;
+    width: 200px;
+    height: 200px;
+    align-self: center;
+
+    box-shadow: 0 0 0 7px white;
+}
+
+
+.scircle1{
+    border-radius: 50%;
+    background: #babeff;
+    width: 150px;
+    height: 150px;
+    align-self: flex-end;
+    box-shadow: 0 0 0 7px white;
+    text-align: center;
+
+}
+
+.scircle2{
+    border-radius: 50%;
+    background: #babeff;
+    width: 150px;
+    height: 150px;
+    align-self: flex-end;
+    box-shadow: 0 0 0 7px white;
+    text-align: center;
+}
+
+.vscircle{
+    border-radius: 50%;
+    background: #babeff;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 0 0 2px white;
+    font-family: sans-serif;
+}
+
+.ncircle{
+    border-radius: 50%;
+    background: #babeff;
+    width:25px;
+    height: 25px;
+    text-align: center;
+    font-family: sans-serif;
+
+
+}
+
+.tag {
+    border-radius: 25px;
+    background: #babeff;
+    text-align: center;
+
+    padding: 15px;
+    width: 100px;
+    height: 10px;
+    font-family: sans-serif;
+  }
+
+
+#ranks {
+    border-spacing:20px;
+    border-collapse: separate;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    row-gap: 15px;
+    display:ranks;
+}
+
+#ranks td, #rankss th {
+
+    padding: 7px;
+    width: 5000px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+#ranks tr{
+    background-color: #d2d4f2;
+    text-align: left;
+    line-height: 60px;
+    border-bottom:8px solid #ffffff;
+
+}
+
+.col {
+    column-width: 10px;
+}
+
+
+.white{
+    color: white;
+}
+
+.tag-prime {
+    border-radius: 25px;
+    background: #babeff;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 150px;
+    height: 15px;
+    font-family: sans-serif;
+}
+.whiteline{
+    box-shadow: white 0px 0px 0px;
+}
